@@ -17,9 +17,9 @@ Coordinates.Boots := Object("X1", 1755, "Y1", 970, "X2", 1790, "Y2", 1007)
 
 Coordinates.Quiver := Object("X1", 1835, "Y1", 970, "X2", 1875, "Y2", 1007)
 
-Coordinates.RangePray := Object("X1", 1315, "Y1", 895, "X2", 1337, "Y2", 918)
-Coordinates.MeleePray := Object("X1", 1350, "Y1", 895, "X2", 1372, "Y2", 918)
-Coordinates.MagePray := Object("X1", 1383, "Y1", 895, "X2", 1407, "Y2", 918)
+Coordinates.RangePray := Object("X1", 1308, "Y1", 888, "X2", 1343, "Y2", 924)
+Coordinates.MeleePray := Object("X1", 1343, "Y1", 888, "X2", 1378, "Y2", 924)
+Coordinates.MagePray := Object("X1", 1378, "Y1", 888, "X2", 1413, "Y2", 924)
 
 Coordinates.InciteFear := Object("X1", 50, "Y1", 327, "X2", 72, "Y2", 349)
 Coordinates.BloodBarrage := Object("X1", 87, "Y1", 293, "X2", 110, "Y2", 316)

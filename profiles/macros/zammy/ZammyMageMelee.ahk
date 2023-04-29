@@ -8,7 +8,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 ZammyMageMelee(){
-    Hybrid(dir.ekz, Coordinates.MH, binds.tectHelmBind, binds.tectTopBind, binds.tectLegsBind, "", binds.detoBootsBind, "", binds.MH, binds.OH, binds.MageDmgPray, binds.vestHelmBind, binds.vestTopBind, binds.vestLegsBind, "", binds.vestBootsBind, binds.ekzBind, "", "", binds.MeleeDmgPray)
+    Hybrid(dir.ekz, Coordinates.MH, binds.tectHelmBind, dir.tectHelm, binds.tectTopBind, binds.tectLegsBind, "", binds.detoBootsBind, dir.detoBoots, "", binds.MH, binds.OH, binds.MageDmgPray, Coordinates.MagePray, binds.vestHelmBind, dir.vestHelm, binds.vestTopBind, binds.vestLegsBind, "", binds.vestBootsBind, dir.vestBoots, binds.ekzBind, "", "", binds.MeleeDmgPray, Coordinates.MeleePray, dir.prayer, Coordinates.Helm, Coordinates.Boots)
     return
 }
 

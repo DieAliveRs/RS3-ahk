@@ -45,6 +45,9 @@ dir.blightOH := "blightOH"
 dir.bolg := "bolg"
 dir.chins := "chins"
 
+;Prayer
+dir.prayer := "PrayerCheck"
+
 ;redacted stuff
 
 
