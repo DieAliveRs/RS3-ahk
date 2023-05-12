@@ -46,35 +46,3 @@ Cast(Bind){
     return
 }
 
-; class sendKey {
-;     SendRand(ByRef key) {
-;         Send {%key% down}
-;         SleepRand(1, 5)
-;         Send {%key% up}
-;     }
-
-;     SendLCtrlWithKey(key) {
-;         Send {LCtrl down}
-;         SleepRand(1, 5)
-;         this.SendRand(key)
-;         SleepRand(1, 5)
-;         Send {LCtrl up}
-;     }
-
-;     SendAltWithKey(key) {
-;         Send {Alt down}
-;         SleepRand(1, 5)
-;         this.SendRand(key)
-;         SleepRand(1, 5)
-;         Send {Alt up}
-;     }
-
-;     SendShiftWithKey(key) {
-;         Send {Shift down}
-;         SleepRand(1, 5)
-;         this.SendRand(key)
-;         SleepRand(1, 5)
-;         Send {Shift up}
-;     }
-; }
-

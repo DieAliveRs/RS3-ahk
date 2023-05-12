@@ -13,3 +13,9 @@ ScreenClick(Coordinates){
     SleepRand(1, 5)
     MouseMove, StartX, StartY
 }
+
+ControlClick(Coordinates){
+    Random, xCoord, Coordinates.X1, Coordinates.X2
+    Random, yCoord, Coordinates.Y1, Coordinates.Y2
+    ControlClick, JagOpenGLView1, RuneScape, , , , x%xCoord% y%yCoord%
+}

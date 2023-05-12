@@ -28,6 +28,8 @@ Coordinates.RubyAurora := Object("X1", 125, "Y1", 225, "X2", 148, "Y2", 248)
 
 ; Coordinates.SpellswapBox := Object("X1", 4, "Y1", 35, "X2", 70, "Y2", 48)
 
+Coordinates.SbsLunar := Object("X1", 1648, "Y1", 821, "X2", 1673, "Y2", 846)
+Coordinates.Disr := Object("X1", 1648, "Y1", 856, "X2", 1673, "Y2", 881)
 
 
 

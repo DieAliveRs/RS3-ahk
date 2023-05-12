@@ -10,9 +10,12 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 Zammy(){
     Hotkey, NumpadAdd, Entangle, On
     Hotkey, F24, Disrupt, On
+    Hotkey, +F24, Disrupt, On ;Shift + F24
+    Hotkey, !F24, Disrupt, On ;Alt + F24
     Hotkey, F23, ZammyMageMelee, On
+    Hotkey, +F23, ZammyMageMelee, On
+    Hotkey, !F23, ZammyMageMelee, On
     return
-
 }
 
 

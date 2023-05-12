@@ -4,8 +4,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance, force
 
-;#Include, functions\_index.ahk
-;#Include, profiles\_index.ahk
+
 
 
 Entangle(){
