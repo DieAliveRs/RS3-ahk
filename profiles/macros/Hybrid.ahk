@@ -41,12 +41,12 @@ Hybrid(WeaponFileName, WeaponCoordinates, Helm0, HelmFile0, Top0, Legs0, Gloves0
     else{
         ;Style1 not equipped, equip Style1
         
-        Equip(2H1)
         Equip(Top1)
         Equip(Legs1)
         EquipCheck(Helm1, HelmFile1, HelmCoords)
         Equip(Gloves1)
         EquipCheck(Boots1, BootsFile1, BootsCoords)
+        Equip(2H1)
         Equip(MH1)
         Equip(OH1)
 

@@ -12,9 +12,12 @@ Zammy(){
     Hotkey, F24, Disrupt, On
     Hotkey, +F24, Disrupt, On ;Shift + F24
     Hotkey, !F24, Disrupt, On ;Alt + F24
-    Hotkey, F23, ZammyMageMelee, On
-    Hotkey, +F23, ZammyMageMelee, On
-    Hotkey, !F23, ZammyMageMelee, On
+    ; Hotkey, F23, ZammyMageMelee, On
+    ; Hotkey, +F23, ZammyMageMelee, On
+    ; Hotkey, !F23, ZammyMageMelee, On
+    Hotkey, F23, ZammyMageRange, On
+    Hotkey, +F23, ZammyMageRange, On
+    Hotkey, !F23, ZammyMageRange, On
     return
 }
 

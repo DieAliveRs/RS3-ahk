@@ -61,20 +61,33 @@ binds.MageDmgPray := {bind: "\", modifier: ""}
 
 
 ;Boss-specific binds
+;;==============================================================
 ;Zammy
 binds.tectHelmBind := {bind: "e", modifier: ""}
 binds.tectTopBind := {bind: "q", modifier: ""}
 binds.tectLegsBind := {bind: "w", modifier: ""}
 binds.detoBootsBind := {bind: "k", modifier: ""}
 
+;Melee brid
 binds.ekzBind := {bind: "-", modifier: ""}
 binds.vestHelmBind := {bind: "8", modifier: ""}
 binds.vestTopBind := {bind: ",", modifier: ""}
 binds.vestLegsBind := {bind: "F7", modifier: ""}
 binds.vestBootsBind := {bind: "NumpadDiv", modifier: ""}
 
+;Range brid
+binds.rangeTopBind := {bind: ",", modifier: ""}
+binds.rangeLegsBind := {bind: "F7", modifier: ""}
+binds.Bolg := {bind: "NumpadDiv", modifier: ""}
+binds.cryptTopSwitch := {bind: "NumpadDiv", modifier: ""}
+binds.cryptLegsSwitch := {bind: "NumpadMult", modifier: ""}
+binds.fsoaSwitch := {bind: "a", modifier: ""}
+binds.eofSwitch := {bind: "l", modifier: ""}
+
+;other
 binds.SbsStandard := {bind: "0", modifier: ""}
 binds.Entangle := {bind: "l", modifier: ""}
+;;==============================================================
 
 ;KK
 binds.blight := {bind: "F7", modifier: ""}

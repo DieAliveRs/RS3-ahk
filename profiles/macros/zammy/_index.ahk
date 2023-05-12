@@ -5,4 +5,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance, force
 
 #Include, profiles\macros\zammy\ZammyMageMelee.ahk
+#Include, profiles\macros\zammy\ZammyMageRange.ahk
+
 
