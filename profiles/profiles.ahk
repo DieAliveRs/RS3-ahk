@@ -37,3 +37,8 @@ KK(){
     Hotkey, F22, KKRelease, On
     return
 }
+
+
+ED1(){
+    Hotkey,F21, ED1MageMelee, On
+}

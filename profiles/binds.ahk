@@ -105,3 +105,25 @@ binds.vestmentsBottom := {bind: "d", modifier: ""}
 binds.FulQuiver := {bind: "h", modifier: ""}
 binds.keris := {bind: "l", modifier: ""}
 
+;ED1
+binds.MeleeHelm := {bind: "NumpadDiv", modifier: ""}
+binds.MeleeTop := {bind: ",", modifier: ""}
+binds.MeleeLegs := {bind: "0", modifier: ""}
+binds.MeleeBoots := {bind: "NumpadMult", modifier: ""}
+binds.2HWeap := {bind: "F7", modifier: ""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

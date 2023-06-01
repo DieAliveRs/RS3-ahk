@@ -18,7 +18,7 @@ imageSearch(ByRef FileName, Coordinates){
     Y2 := Coordinates.Y2
 
     ;ImageSearch, , , %X1%, %Y1%, %X2%, %Y2%, *50, *TransBlack %filePath%
-    ImageSearch, , , X1, Y1, X2, Y2, *50, *TransBlack %filePath%
+    ImageSearch, , , X1, Y1, X2, Y2, *71, *TransBlack %filePath%
 
     ;Item equipped
     if (ErrorLevel = 0){

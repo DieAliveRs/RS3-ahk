@@ -42,7 +42,7 @@ dir.fleetingBoots := "fleetingBoots"
 
 dir.blightMH := "blightMH"
 dir.blightOH := "blightOH"
-dir.bolg := "bolg"
+dir.bolg := "bolg5"
 dir.chins := "chins"
 
 ;Prayer
