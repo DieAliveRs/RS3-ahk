@@ -63,10 +63,10 @@ binds.MageDmgPray := {bind: "\", modifier: ""}
 ;Boss-specific binds
 ;;==============================================================
 ;Zammy
-binds.tectHelmBind := {bind: "e", modifier: ""}
-binds.tectTopBind := {bind: "q", modifier: ""}
-binds.tectLegsBind := {bind: "w", modifier: ""}
-binds.detoBootsBind := {bind: "k", modifier: ""}
+binds.tectHelmBind := {bind: "a", modifier: ""}
+binds.tectTopBind := {bind: ",", modifier: ""}
+binds.tectLegsBind := {bind: "F7", modifier: ""}
+binds.detoBootsBind := {bind: "NumpadDiv", modifier: ""}
 
 ;Melee brid
 binds.ekzBind := {bind: "-", modifier: ""}
@@ -111,6 +111,7 @@ binds.MeleeTop := {bind: ",", modifier: ""}
 binds.MeleeLegs := {bind: "0", modifier: ""}
 binds.MeleeBoots := {bind: "NumpadMult", modifier: ""}
 binds.2HWeap := {bind: "F7", modifier: ""}
+
 
 
 

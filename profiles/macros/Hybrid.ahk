@@ -20,7 +20,11 @@ EquipCheck(EquipBind, FileName, Coords){
     }
 }
 
-Hybrid(WeaponFileName, WeaponCoordinates, Helm0, HelmFile0, Top0, Legs0, Gloves0, Boots0, BootsFile0, 2H0, MH0, OH0, Prayer0, PrayerCoords0, Helm1, HelmFile1, Top1, Legs1, Gloves1, Boots1, BootsFile1, 2H1, MH1, OH1, Prayer1, PrayerCoords1, PrayerFile, HelmCoords, BootsCoords){
+Hybrid(WeaponFileName, WeaponCoordinates
+    , Helm0, HelmFile0, Top0, Legs0, Gloves0, Boots0, BootsFile0, 2H0, MH0, OH0, Prayer0, PrayerCoords0
+    , Helm1, HelmFile1, Top1, Legs1, Gloves1, Boots1, BootsFile1, 2H1, MH1, OH1, Prayer1, PrayerCoords1
+    , PrayerFile, HelmCoords, BootsCoords){
+
     ;decides which style to equip (checks with Style1)
     if(imageSearch(WeaponFileName, WeaponCoordinates) = 0){
         ; = 0 -> Style1 equiped, equip Style0

@@ -8,6 +8,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #Include, profiles\macros\vorago\_index.ahk
 #Include, profiles\macros\zammy\_index.ahk
 #Include, profiles\macros\ed1\_index.ahk
+#Include, profiles\macros\ed2\_index.ahk
 
 #Include, profiles\macros\AutoCastSpell.ahk
 #Include, profiles\macros\Disrupt.ahk
