@@ -52,7 +52,7 @@ Each new profile is added as a function in _profiles\profiles.ahk_ containing an
 ## GUI
 To add profiles to the GUI, after following the previous steps:
 
-Any new Hotkeys remapped need to be added to the list: _RemappedKeys_ in _profiles\profiles.ahk_.
+Any new Hotkeys remapped need to be added to the list: _RemappedKeys_, in _profiles\profiles.ahk_.
 
 In _gui\gui.ahk_, inside the _CreateCustomizeGui()_ function, an _if_ statement similar to the others has to be added for the respective boss profile, each macro in the profile will have a checkbox which is created in a _BossnameCheckboxes()_ function, following the same format of the other checkboxes: _Gui, Add, Checkbox, cWhite Center x5 y45 Checked vVariablenName gProfileHandler, &Displaying Name_
 
